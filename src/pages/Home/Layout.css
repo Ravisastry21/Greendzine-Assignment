@@ -1,0 +1,36 @@
+body {
+    background: #000;
+}
+
+.profile-container {
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-icon {
+    margin: 1rem;
+}
+
+
+@media only screen and (max-width: 412px) {
+    body,
+    .profile-container {
+        background: #000;
+    }
+
+    .profile-icon {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    body,
+    .profile-container {
+        background: #000;
+    }
+
+    .profile-icon {
+        margin: 0.2rem;
+    }
+}
